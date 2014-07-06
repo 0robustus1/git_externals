@@ -62,13 +62,13 @@ Will list the latest *n*-branches you checked out. *n* will default to 10 but
 can be adjusted via the `-l`-switch:
 `git latest-branches -l 20`.
 
-## git open-branches-i-contributed-to
+## git list-unmerged-branches-with-contributions
 
-**Scriptfile:** *open_branches_i_contributed_to.sh*
+**Scriptfile:** *list_unmerged_branches_with_contributions.sh*
 
 Lists all unmerged branches that *you* have commits in. You will
 need to define a basebranch, which is the (hopefully) common basebranch
 all your branches are based on. So it will only factor in commits that
 are unique to this branch.
 
-Usage: `git open-branches-i-contributed-to master`
+Usage: `git list-unmerged-branches-with-contributions master`
